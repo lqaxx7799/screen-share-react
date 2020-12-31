@@ -42,6 +42,7 @@ const Room = (props) => {
     peer.current = new Peer(undefined, {
       host: '/',
       port: '5003',
+      secure: true,
     });
 
     navigator.mediaDevices.getDisplayMedia({

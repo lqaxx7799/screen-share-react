@@ -21,7 +21,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "set HTTPS=true && set PORT=5002 && craco start",
+    "start": "set HTTPS=true&&set PORT=5002&&craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
